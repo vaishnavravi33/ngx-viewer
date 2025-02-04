@@ -1,4 +1,4 @@
-﻿import { Directive, ElementRef, NgModule, OnDestroy, AfterViewInit, Input, Output, EventEmitter } from '@angular/core';
+﻿import { Directive, ElementRef, OnDestroy, AfterViewInit, Input, Output, EventEmitter } from '@angular/core';
 import Viewer from 'viewerjs';
 
 @Directive({
