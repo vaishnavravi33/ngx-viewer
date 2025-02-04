@@ -7,13 +7,13 @@
     "url": "git://github.com/vaishnavravi33/ngx-viewer.git"
   },
   "bugs": {
-    "url": "https://github.com/winteragency/ngx-viewer/issues"
+    "url": "https://github.com/vaishnavravi33/ngx-viewer/issues"
   },
   "license": "MIT",
   "author": {
-    "name": "WINTER",
-    "email": "info@winteragency.se",
-    "url": "https://wintergency.se"
+    "name": "RavindraVairagi",
+    "email": "",
+    "url": ""
   },
   "keywords": [
     "angular",
@@ -24,7 +24,7 @@
     "directive",
     "image viewer"
   ],
-  "homepage": "https://github.com/winteragency/ngx-viewer",
+  "homepage": "https://github.com/vaishnavravi33/ngx-viewer",
   "dependencies": {
     "tslib": "^2.0.0"
   },
