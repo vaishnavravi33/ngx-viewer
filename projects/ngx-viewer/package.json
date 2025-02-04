@@ -1,10 +1,10 @@
 {
-  "name": "ngx-viewer",
+  "name": "ngx-extended-viewer",
   "version": "16.2.12",
   "description": "Angular 16 directive for the Viewer.js library",
   "repository": {
     "type": "git",
-    "url": "git://github.com/winteragency/ngx-viewer.git"
+    "url": "git://github.com/vaishnavravi33/ngx-viewer.git"
   },
   "bugs": {
     "url": "https://github.com/winteragency/ngx-viewer/issues"
