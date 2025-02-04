@@ -1,7 +1,7 @@
 {
   "name": "ngx-viewer",
-  "version": "12.2.17",
-  "description": "Angular 6+ directive for the Viewer.js library",
+  "version": "16.2.12",
+  "description": "Angular 16 directive for the Viewer.js library",
   "repository": {
     "type": "git",
     "url": "git://github.com/winteragency/ngx-viewer.git"
