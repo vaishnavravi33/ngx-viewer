@@ -25,6 +25,9 @@
     "image viewer"
   ],
   "homepage": "https://github.com/winteragency/ngx-viewer",
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
   "peerDependencies": {
     "@angular/common": "^8.2.2",
     "@angular/core": "^8.2.2",
