@@ -5,6 +5,9 @@
     "module": "es2015",
     "moduleResolution": "node",
     "declaration": true,
+    "declarationMap": true,
+    "skipLibCheck": true,
+    "strict": false,
     "sourceMap": true,
     "inlineSources": true,
     "emitDecoratorMetadata": true,
@@ -17,6 +20,7 @@
     ]
   },
   "angularCompilerOptions": {
+    "compilationMode": "partial",
     "skipTemplateCodegen": true,
     "strictMetadataEmit": true,
     "fullTemplateTypeCheck": true,

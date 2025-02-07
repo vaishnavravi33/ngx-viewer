@@ -1,6 +1,6 @@
 {
   "name": "ngx-extended-viewer",
-  "version": "16.2.12",
+  "version": "16.2.13",
   "description": "Angular 16 directive for the Viewer.js library",
   "repository": {
     "type": "git",

@@ -1,14 +1,14 @@
-# ngx-viewer :mag_right:
+# ngx-extended-viewer :mag_right:
 
-[![Latest Stable Version](https://img.shields.io/npm/v/ngx-viewer.svg)](https://www.npmjs.com/package/ngx-viewer) [![Total Downloads](https://img.shields.io/npm/dt/ngx-viewer.svg)](https://npm-stat.com/charts.html?package=ngx-viewer) [![License](https://img.shields.io/github/license/winteragency/ngx-viewer.svg)](https://github.com/winteragency/ngx-viewer) [![Made by WINTER](https://img.shields.io/badge/made%20by-%E2%9D%84%20WINTER-blue.svg)](https://winteragency.se)
+[![Latest Stable Version](https://img.shields.io/npm/v/ngx-viewer.svg)](https://www.npmjs.com/package/ngx-extended-viewer)
 
-This is a simple Angular 8+ directive wrapping the amazing [Viewer.js](https://fengyuanchen.github.io/viewerjs/) library.
+This is a simple Angular 16+ directive wrapping the amazing [Viewer.js](https://fengyuanchen.github.io/viewerjs/) library.
 
 ## Installation
 
 Add both this library and the original Viewer.js library as dependencies to your project:
 
-`yarn add ngx-viewer viewerjs`
+`yarn add ngx-extended-viewer viewerjs`
 
 Import the module into your application's `app.module.ts`:
 
@@ -17,8 +17,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 
-// import ngx-viewer module
-import { NgxViewerModule } from 'ngx-viewer';
+// import ngx-extended-viewer module
+import { NgxViewerModule } from 'ngx-extended-viewer';
 
 @NgModule({
   declarations: [
@@ -26,7 +26,7 @@ import { NgxViewerModule } from 'ngx-viewer';
   ],
   imports: [
     BrowserModule,
-    NgxViewerModule // add ngx-viewer module here
+    NgxViewerModule // add ngx-extended-viewer module here
   ],
   providers: [],
   bootstrap: [AppComponent]
@@ -119,13 +119,13 @@ See Viewer.js' docs for more information on each event.
 
 There's a known issue with the Viewer.js transitions that are normally enabled by default. They work fine in development but break (without errors) whenever building with optimizations active (i.e building for production). To get around this, the directive disables transitions by default. If you want to re-enable them (if, for some reason, you aren't running optimizations as part of your production builds) you can set `transition: true` in your [`viewerOptions`](#options).
 
-See [this issue](https://github.com/winteragency/ngx-viewer/issues/1).
+See [this issue](https://github.com/vaishnavravi33/ngx-viewer/issues).
 
 ## License
 
 The MIT License
 
-Copyright (c) 2018, WINTER AGENCY
+Copyright (c) 2025, Ravindra Vairagi
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
