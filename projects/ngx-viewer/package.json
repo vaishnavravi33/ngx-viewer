@@ -1,7 +1,7 @@
 {
   "name": "ngx-extended-viewer",
-  "version": "16.2.13",
-  "description": "Angular 16 directive for the Viewer.js library",
+  "version": "17.0.0",
+  "description": "Angular 16+ directive for the Viewer.js library",
   "repository": {
     "type": "git",
     "url": "git://github.com/vaishnavravi33/ngx-viewer.git"
@@ -29,8 +29,8 @@
     "tslib": "^2.0.0"
   },
   "peerDependencies": {
-    "@angular/common": "^16.2.12",
-    "@angular/core": "^16.2.12",
+    "@angular/common": "^17.3.12",
+    "@angular/core": "^17.3.12",
     "viewerjs": "^1.3.6"
   }
 }

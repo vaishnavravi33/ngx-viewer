@@ -20,7 +20,7 @@
             "outputPath": "dist/ngx-viewer-app",
             "index": "src/index.html",
             "main": "src/main.ts",
-            "polyfills": "src/polyfills.ts",
+            "polyfills": ["src/polyfills.ts"],
             "tsConfig": "src/tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
@@ -59,18 +59,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "ngx-viewer-app:build"
+            "buildTarget": "ngx-viewer-app:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "ngx-viewer-app:build:production"
+              "buildTarget": "ngx-viewer-app:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ngx-viewer-app:build"
+            "buildTarget": "ngx-viewer-app:build"
           }
         },
         "test": {
